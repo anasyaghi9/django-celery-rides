@@ -18,6 +18,10 @@ app.config_from_object(
     namespace='CELERY'
 )
 
+app.conf.beat_schedule = {
+    
+}
+
 app.autodiscover_tasks()
 
 
